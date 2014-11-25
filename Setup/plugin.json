@@ -1,0 +1,23 @@
+{
+    "title": "Language domain",
+    "version": "1.00",
+    "name": "LanguageDomain",
+    "description": "Make your multilingual website have different domain for each language.",
+    "author": "ImpressPages",
+    "options": [
+        {
+            "label": "Domain",
+            "name": "yourEmail",
+            "type": "TextLang",
+            "default": "",
+            "note": "You can set different domain for each language. Leave empty to use default."
+        },
+        {
+            "label": "Default domain",
+            "name": "defaultDomain",
+            "type": "Text",
+            "default": "",
+            "note": "Required to be set if at least one of domain fields above is empty."
+        }
+    ]
+}
